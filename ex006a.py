@@ -1,3 +1,6 @@
+a = int(input('Digite algo:  '))
+print('O tipo primitivo é: ', type(a))
+
 
 #Desafio 1
 n1 = int(input('Digite um numero: '))
