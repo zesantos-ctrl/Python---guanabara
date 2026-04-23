@@ -1,9 +1,5 @@
-salario = float(input('Digite o reajuste: '))
-porcentual = float(input('Digite o porcentual: '))
+salario = float(input('Qual é o salario do funcionario? '))
 
-reajuste =  salario * porcentual
-novo_salario = salario + reajuste
+novo = salario + (salario * 15 / 100)
 
-print('Salário atual: R${:.2f}'.format(salario))
-print('Reajuste: R${:.2f}'.format(reajuste))
-print('Novo salário: R${:.2f}'.format(novo_salario))
+print('Um funcionario que ganhava R${:.2f}')
